@@ -1,0 +1,10 @@
+4147671604469233
+
+
+Incident with interaction is missing
+
+oly relate
+
+interactionid from probsumary table
+
+=SUM(IIf(Fields!Doc_Type.Value = "Shipments", 1, 0), "YourDataSetName")
